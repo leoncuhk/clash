@@ -1,0 +1,23 @@
+[common]
+api_mode = false
+api_access_token = "" 
+exclude_remarks = "(剩余|异常|到期|官网|失败|0.1|0.2|0.3|0.4|0.5|ipv6)"
+
+[server]
+listen = "0.0.0.0"
+port = 25500
+
+[advanced]
+log_level = "info"
+enable_cache = true
+cache_subscription = 60
+cache_config = 300
+cache_ruleset = 21600
+
+[node_pref]
+udp_flag = true
+tcp_fast_open_flag = false
+skip_cert_verify_flag = false
+sort_flag = false
+append_sub_userinfo = true
+clash_use_new_field_name = true
